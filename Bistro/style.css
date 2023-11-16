@@ -1,0 +1,78 @@
+/* style.css */
+
+/* Format margin and padding */
+body, h1, h2, p, ul {
+    margin: 10;
+    padding: 10;
+}
+
+/* Apply a background color */
+body {
+    background-color: #faf2e4;
+    margin: 0 10%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Style header 1 (h1) */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #57b1dc;
+    margin-top: 30px;
+}
+
+/* Style the navigation links */
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style header 2 (h2) */
+h2 {
+    color: #d1633c;
+    font-size: 1em;
+}
+
+/* Style the footer images */
+footer img {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Add hover effect to navigation links */
+nav a:hover {
+    color: #d1633c;
+}
+
+/* Apply style to the pizza button */
+input[type="image"] {
+    width: 350px;
+    height: 250px;
+    border: none;
+}
+
+/* Apply style to social media icons */
+footer img {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Apply style to social media icons on hover */
+footer img:hover {
+    opacity: 0.8;
+}
