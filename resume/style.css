@@ -1,0 +1,69 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    background-color: #faf2e4;
+    padding: 50px;
+}
+
+.header img {
+    max-width: 50%;
+    height: auto;
+}
+
+.name li {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.name li:nth-child(odd) {
+    color: #3B4016;
+}
+
+.name li:nth-child(even) {
+    color: #6B7334;
+}
+
+.photo-description img {
+    max-width: 30%;
+    height: auto;
+}
+
+.photo-description {
+    margin: 20px 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-links img {
+    max-width: 30px;
+    margin: 0 10px;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.photo-description b {
+    color: #3B4016;
+}
+
+h2 {
+    color: #6B7334;
+    margin-top: 20px;
+}
+
+a img:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+}

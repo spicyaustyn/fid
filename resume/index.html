@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -28,9 +30,19 @@
             height: auto;
         }
 
-        .name {
-            font-size: 24px;
-            margin-top: 10px;
+        .name li {
+            font-size: 16px;
+            margin-top: 5px;
+        }
+
+        .name li:nth-child(odd) {
+            color: #3B4016;
+	}
+
+	.name li:nth-child(even) {
+  	    color: #6B7334;
+	}
+
         }
 
         .photo-description {
